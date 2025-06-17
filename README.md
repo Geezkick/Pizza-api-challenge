@@ -1,11 +1,18 @@
-# Pizza Restaurant API
+# Pizza Restaurant API 
 
-A RESTful API for managing pizza restaurants, pizzas, and their associations.
+A RESTful API for managing pizza restaurants, their pizzas, and associations between them.
 
-## Setup
+## Features
 
-1. Clone the repository
-2. Create and activate a virtual environment:
-   ```bash
-   pipenv install flask flask_sqlalchemy flask_migrate
-   pipenv shell
+- RESTful endpoints for restaurants, pizzas, and their associations
+- SQLite database with Flask-SQLAlchemy ORM
+- Flask-Migrate for database migrations
+- Proper validation and error handling
+- Ready-to-use Postman collection
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Pizza-api-challenge.git
+cd Pizza-api-challenge
