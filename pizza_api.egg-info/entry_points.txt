@@ -1,0 +1,2 @@
+[console_scripts]
+pizza-api = server.app:main
